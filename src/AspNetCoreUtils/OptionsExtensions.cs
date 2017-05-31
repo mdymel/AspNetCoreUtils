@@ -13,7 +13,7 @@ namespace AspNetCoreUtils
             services.Configure<T>(configurationSection);
             IServiceProvider sp = services.BuildServiceProvider();
             var options = sp.GetService<IOptions<T>>();
-            services.AddTransient(x => options);
+            services.AddTransient(x => options.Value);
             return options.Value;
         }
     }
