@@ -9,6 +9,9 @@
     <PackageLicenseUrl>https://github.com/mdymel/AspNetCoreUtils/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mdymel/AspNetCoreUtils</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mdymel/AspNetCoreUtils</RepositoryUrl>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 
