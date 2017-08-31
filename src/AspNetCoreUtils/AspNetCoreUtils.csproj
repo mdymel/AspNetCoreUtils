@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Michał Dymel</Authors>
     <Company>dymel.pl</Company>
@@ -9,14 +9,14 @@
     <PackageLicenseUrl>https://github.com/mdymel/AspNetCoreUtils/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mdymel/AspNetCoreUtils</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mdymel/AspNetCoreUtils</RepositoryUrl>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
-    <Version>1.0.2</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
